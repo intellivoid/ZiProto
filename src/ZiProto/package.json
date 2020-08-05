@@ -1,0 +1,99 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.ziproto",
+        "name": "ZiProto",
+        "version": "1.0.0.1",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid",
+        "description": "Fast-compression serialization blob library (ProtoBuf Like)",
+        "url": "https://github.com/intellivoid/ZiProto",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "indexed",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Abstracts/Options.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/Regex.php"
+        },
+        {
+            "required": true,
+            "file": "BufferStream.php"
+        },
+        {
+            "required": true,
+            "file": "DecodingOptions.php"
+        },
+        {
+            "required": true,
+            "file": "EncodingOptions.php"
+        },
+        {
+            "required": true,
+            "file": "Exception/DecodingFailedException.php"
+        },
+        {
+            "required": true,
+            "file": "Exception/EncodingFailedException.php"
+        },
+        {
+            "required": true,
+            "file": "Exception/InsufficientDataException.php"
+        },
+        {
+            "required": true,
+            "file": "Exception/IntegerOverflowException.php"
+        },
+        {
+            "required": true,
+            "file": "Exception/InvalidOptionException.php"
+        },
+        {
+            "required": true,
+            "file": "Ext.php"
+        },
+        {
+            "required": true,
+            "file": "Packet.php"
+        },
+        {
+            "required": true,
+            "file": "Type/Binary.php"
+        },
+        {
+            "required": true,
+            "file": "Type/Map.php"
+        },
+        {
+            "required": true,
+            "file": "TypeTransformer/BinaryTransformer.php"
+        },
+        {
+            "required": true,
+            "file": "TypeTransformer/Extension.php"
+        },
+        {
+            "required": true,
+            "file": "TypeTransformer/MapTransformer.php"
+        },
+        {
+            "required": true,
+            "file": "TypeTransformer/Validator.php"
+        },
+        {
+            "required": true,
+            "file": "ZiProto.php"
+        }
+    ],
+    "files": [
+        "ziproto.json"
+    ]
+}
